@@ -4,13 +4,15 @@ body {
     color: white; 
 }
 .main-button {
-    float: left;
-    border: 1px solid navy;
     background-color: #FFFFFF;
     color: #050624;
-    border: none;
-    padding: 0px 24px;
+    padding: 10px 15px;
     font-size: 20px;
-    border-radius: 12px;
+    float: left;
+    transition-duration: 0.4s;
+}
+.main-button:hover {
+    background-color: #050624;
+    color: white;
 }
   
